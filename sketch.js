@@ -5,7 +5,7 @@ let nDisplay;
 
 function setup()
 {
-  createCanvas(1536,749);
+  createCanvas(windowWidth, windowHeight);
   slider = createSlider(1, 50, 1).center();
   slider.position ((width / 2) - 200, 450);
   slider.size(300, 20);
